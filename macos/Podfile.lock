@@ -1,0 +1,56 @@
+PODS:
+  - assets_audio_player (0.0.1):
+    - FlutterMacOS
+  - assets_audio_player_web (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - path_provider (0.0.1)
+  - path_provider_macos (0.0.1):
+    - FlutterMacOS
+  - shared_preferences (0.0.1)
+  - shared_preferences_macos (0.0.1):
+    - FlutterMacOS
+  - window_utils (0.0.3):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - assets_audio_player (from `Flutter/ephemeral/.symlinks/plugins/assets_audio_player/macos`)
+  - assets_audio_player_web (from `Flutter/ephemeral/.symlinks/plugins/assets_audio_player_web/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral/.symlinks/flutter/darwin-x64-release`)
+  - path_provider (from `Flutter/ephemeral/.symlinks/plugins/path_provider/macos`)
+  - path_provider_macos (from `Flutter/ephemeral/.symlinks/plugins/path_provider_macos/macos`)
+  - shared_preferences (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences/macos`)
+  - shared_preferences_macos (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences_macos/macos`)
+  - window_utils (from `Flutter/ephemeral/.symlinks/plugins/window_utils/macos`)
+
+EXTERNAL SOURCES:
+  assets_audio_player:
+    :path: Flutter/ephemeral/.symlinks/plugins/assets_audio_player/macos
+  assets_audio_player_web:
+    :path: Flutter/ephemeral/.symlinks/plugins/assets_audio_player_web/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral/.symlinks/flutter/darwin-x64-release
+  path_provider:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider/macos
+  path_provider_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_macos/macos
+  shared_preferences:
+    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences/macos
+  shared_preferences_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences_macos/macos
+  window_utils:
+    :path: Flutter/ephemeral/.symlinks/plugins/window_utils/macos
+
+SPEC CHECKSUMS:
+  assets_audio_player: be2578e6f11dd4d183412e97143673c3c4cb2e8a
+  assets_audio_player_web: 917101123b6db8f73156835c0fa266c11340ff15
+  FlutterMacOS: 15bea8a44d2fa024068daa0140371c020b4b6ff9
+  path_provider: e0848572d1d38b9a7dd099e79cf83f5b7e2cde9f
+  path_provider_macos: a0a3fd666cb7cd0448e936fb4abad4052961002b
+  shared_preferences: 9fec34d1bd906196a4da48fcf6c3ad521cc00b8d
+  shared_preferences_macos: 480ce071d0666e37cef23fe6c702293a3d21799e
+  window_utils: 30d6f8e67c0732ebd021c020cb2634e1da2d8bc6
+
+PODFILE CHECKSUM: d8ba9b3e9e93c62c74a660b46c6fcb09f03991a7
+
+COCOAPODS: 1.9.3
