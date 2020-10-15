@@ -11,10 +11,11 @@ jobs:
     - run: flutter config --enable-macos-desktop
     - run: flutter pub get
     - run: flutter build macos --release
-    - run: tar -czvf LofiMusic.tar.gz build/macos/Build/Products/Release/LofiMusic.app
+    - run: tar -czvf LofiMusic.app.tar.gz -C build/macos/Build/Products/Release/ LofiMusic.app
     - uses: ncipollo/release-action@v1
       with:
-        artifacts: "LofiMusic.tar.gz"
+        artifacts: "LofiMusic.app.tar.gz"
         tag: latest
         prerelease: true
+        allowUpdates: true
         token: ${{ secrets.GITHUB_TOKEN }}
