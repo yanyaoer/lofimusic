@@ -1,0 +1,20 @@
+on: push
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: subosito/flutter-action@v1
+      with:
+        channel: dev
+    - run: flutter upgrade
+    - run: flutter config --enable-macos-desktop
+    - run: flutter pub get
+    - run: flutter build macos --release
+    - run: tar -czvf LofiMusic.tar.gz build/macos/Build/Products/Release/LofiMusic.app
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "LofiMusic.tar.gz"
+        tag: latest
+        prerelease: true
+        token: ${{ secrets.GITHUB_TOKEN }}
